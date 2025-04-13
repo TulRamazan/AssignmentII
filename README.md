@@ -100,9 +100,9 @@ Core operations:
         insert(T item) → adds a new item and rebalances the heap using heapify up
         extractMin() → removes and returns the smallest item, then rebalances using heapify down
         peek() → gets the smallest item without removing it
-    i    sEmpty(), size(), clear() → utility methods
+        isEmpty(), size(), clear() → utility methods
 
-nternal behavior:
+Internal behavior:
 
     Maintains heap property: every parent is smaller than its children
     Stored in an array, where:
